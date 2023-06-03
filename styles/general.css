@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500&display=swap');
+
+:root {
+    --main-black: rgb(26, 26, 26);
+    --main-white: rgb(243, 242, 242);
+    --main-blue: rgb(0, 98, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+body {
+    background-color: var(--main-white);
+}

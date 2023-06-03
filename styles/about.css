@@ -1,0 +1,62 @@
+#about {
+    background-color: var(--main-black);
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-container {
+    color: var(--main-white);
+    width: 70%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    padding: 70px;
+    border: 1px solid var(--main-white);
+    background-color: rgba(90, 90, 90, 0.249);
+}
+
+.about-box {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    font-size: 25px;
+    gap: 50px;
+}
+
+.about-title {
+    font-size: 65px;
+    width: 35%;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.about-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about-buttons button {
+    padding: 15px 50px;
+    font-size: 25px;
+    background: none;
+    border: 1px solid var(--main-white);
+    color: var(--main-white);
+    cursor: pointer;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+.about-linkedin:hover {
+    background-color: rgb(0, 132, 255);
+}
+
+.about-github:hover {
+    background-color: rgba(0, 0, 0, 0.579);
+}
