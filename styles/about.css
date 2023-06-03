@@ -8,8 +8,8 @@
 
 .about-container {
     color: var(--main-white);
-    width: 70%;
-    height: 80%;
+    width: 1200px;
+    height: 450px;
     display: flex;
     align-items: center;
     padding: 70px;
@@ -20,20 +20,21 @@
 .about-box {
     display: flex;
     flex-direction: column;
-    width: 60%;
     font-size: 25px;
     gap: 50px;
+    width: 700px;
 }
 
 .about-title {
     font-size: 65px;
-    width: 35%;
+    width: 400px;
 }
 
 .about-text {
     display: flex;
     flex-direction: column;
     gap: 30px;
+    text-align: justify;
 }
 
 .about-buttons {
@@ -49,7 +50,7 @@
     border: 1px solid var(--main-white);
     color: var(--main-white);
     cursor: pointer;
-    transition: 0.4s;
+    transition: 0.6s;
     border-radius: 50px;
 }
 
