@@ -1,20 +1,32 @@
 #projects {
-    height: 180vh;
+    height: 140vh;
     color: var(--main-black);
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
 }
 
 .projects-title {
     margin-top: 100px;
     margin-left: 60px;
+    margin-bottom: 140px;
     font-size: 55px;
+}
+
+.projects-box {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+}
+
+.projects-box h3 {
+    font-size: 30px;
+    text-align: center;
+    font-style: italic;
 }
 
 .projects-container {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 190px;
 }
 
 .project-container {
@@ -22,6 +34,18 @@
     display: flex;
     gap: 100px;
     padding: 20px;
+}
+
+#inverso {
+    flex-direction: row-reverse;
+}
+
+#inverso .project-image{
+    box-shadow: 25px -25px 0px rgb(198, 198, 198);
+}
+
+#inverso .project-buttons {
+    flex-direction: row-reverse;
 }
 
 .project-text {
@@ -41,6 +65,7 @@
 
 .project-image {
     width: 600px;
+    cursor: pointer;
     transition: 0.6s;
     box-shadow: -25px -25px 0px rgb(198, 198, 198);
 }
@@ -60,11 +85,18 @@
     font-size: 22px;
     padding: 10px 20px;
     border-radius: 30px;
-    background: linear-gradient(to right, rgb(119, 246, 119), rgb(246, 96, 96));
     cursor: pointer;
     transition: 0.4s;
     font-weight: 500;
     color: var(--main-white);
+}
+
+#todoBtn {
+    background: linear-gradient(to right, rgb(119, 246, 119), rgb(246, 96, 96));
+}
+
+#myStoreBtn {
+    background-color: rgb(255, 63, 63);
 }
 
 .view-project-button:hover {

@@ -3,6 +3,10 @@
     height: 80vh;
 }
 
+.themes-button {
+    transition: 0.4s;
+}
+
 .presentation {
     display: flex;
     flex-direction: column;
