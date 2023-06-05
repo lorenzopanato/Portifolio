@@ -1,6 +1,5 @@
 #home {
-    margin-top: 90px;
-    height: 80vh;
+    height: 100vh;
 }
 
 .themes-button {
@@ -12,7 +11,7 @@
     flex-direction: column;
     gap: 20px;
     align-items: center;
-    margin-top: 300px;
+    padding-top: 300px;
 }
 
 .presentation-name {
@@ -46,7 +45,7 @@
     font-size: 22px;
     margin-top: 75px;
     height: 50px;
-    background-color: rgba(0, 0, 0, 0.535);
+    background-color: rgba(87, 87, 87, 0.535);
     width: 130px;
     display: flex;
     align-items: center;

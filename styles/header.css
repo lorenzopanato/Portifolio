@@ -3,14 +3,15 @@
     top: 0;
     right: 0;
     left: 0;
-    height: 90px;
+    height: 10vh;
     font-size: 22px;
     font-weight: 500;
     display: flex;
     justify-content: space-between;
-    z-index: 100;
-    background-color: var(--main-white);
+    z-index: 1;
     border-bottom: 1px solid rgba(82, 82, 82, 0.142);
+    backdrop-filter: blur(10px);
+    color: rgb(0, 0, 0);
 }
 
 .themes {
@@ -67,5 +68,10 @@
 .header-infos li:hover {
     color: var(--main-red);
     font-size: 24px;
+}
+
+.header-infos a {
+    text-decoration: none;
+    color: inherit;
 }
 

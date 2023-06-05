@@ -21,23 +21,23 @@
         </div>
         <ul class="header-infos">
             <div>
-                <li>Início</li>
+                <li><a href="#home">Início</a></li>
             </div>
             <div>
-                <li>Sobre mim</li>
+                <li><a href="#about">Sobre mim</a></li>
             </div>
             <div>
-                <li>Projetos</li>
+                <li><a href="#projects">Projetos</a></li>
             </div>
             <div>
-                <li>Contato</li>
+                <li><a href="#footer">Contato</a></li>
             </div>
         </ul>
     </header>
 
     <main class="main">
         <section id="home">
-            <div class="presentation">
+            <div class="presentation hidden">
                 <p class="presentation-name">Lorenzo Panato</p>
                 <p class="presentation-info">Desenvolvedor <span>Front End</span></p>
                 <div class="skills">
@@ -75,7 +75,7 @@
         </section>
     
         <section id="about">
-            <div class="about-container">
+            <div class="about-container hidden">
                 <h1 class="about-title">Sobre mim</h1>
                 <div class="about-box">
                     <div class="about-text">
@@ -98,11 +98,11 @@
         </section>
     
         <section id="projects">
-            <h1 class="projects-title">Principais Projetos</h1>
+            <h1 class="projects-title hidden">Principais Projetos</h1>
             
             <div class="projects-box">
-                <div class="projects-container js-projects-container"></div>
-                <div class="news-container">
+                <div class="projects-container js-projects-container hidden"></div>
+                <div class="news-container hidden">
                     <h3>Novidades em breve...</h3>
                     <a href="https://github.com/lorenzopanato?tab=repositories" target="blank">
                         <h4>Repositório no GitHub</h4>
@@ -114,8 +114,10 @@
     
     <footer id="footer">
         <p>/* Feito por <span>Lorenzo Panato</span> */</p>
+        <p>E-mail para contato: lorenzohpanato@gmail.com</p>
     </footer>
 
+    <script src="js/scroll.js"></script>
     <script src="js/themes.js"></script>
     <script src="js/projects.js"></script>
     <script src="js/home.js"></script>

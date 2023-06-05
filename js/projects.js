@@ -5,14 +5,18 @@ const projectsData = [
         text: 'Projeto desenvolvido com HTML, CSS e JavaScript, com o objetivo de ' +
         'praticar, principalmente, a manipulação de formulários, armazenamento de dados no LocalStorage, filtragem e ' +
         'pesquisa de itens.',
-        buttonId: 'todoBtn'
+        buttonId: 'todoBtn',
+        link: 'https://lorenzopanato.github.io/Todo-List/',
+        gitHubLink: 'https://github.com/lorenzopanato/Todo-List'
     }, {
         image: 'assets/images/my store.PNG',
         title: 'My Store',
         text: 'Projeto básico desenvolvido com HTML, CSS e JavaScript, com o objetivo de ' +
         'praticar a manipulação de array e objetos, além da geração de elementos HTML com JavaScript.',
         formato: 'inverso',
-        buttonId: 'myStoreBtn'
+        buttonId: 'myStoreBtn',
+        link: 'https://lorenzopanato.github.io/My-Store/',
+        gitHubLink: 'https://github.com/lorenzopanato/My-Store'
     }
 ];
 
@@ -29,9 +33,11 @@ function generateHTML() {
                     <h2>${project.title}</h2>
                     <p>${project.text}</p>
                     <div class="project-buttons">
-                        <button class="view-project-button" id="${project.buttonId}">Ver Projeto</button>
+                        <a href="${project.link}" target="_blank">
+                            <button class="view-project-button" id="${project.buttonId}">Ver Projeto</button>
+                        </a>
 
-                        <a href="https://github.com/lorenzopanato?tab=repositories" target="_blank">
+                        <a href="${project.gitHubLink}" target="_blank">
                             <img src="assets/icons/github.png" class="github-project-button" alt="github icon">
                         </a>
                     </div>

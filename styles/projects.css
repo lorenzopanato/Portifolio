@@ -1,9 +1,9 @@
 #projects {
-    height: 150vh;
+    padding-bottom: 150px;
 }
 
 .projects-title {
-    margin-top: 100px;
+    padding-top: 120px;
     margin-left: 60px;
     margin-bottom: 140px;
     font-size: 55px;
@@ -58,7 +58,6 @@
 
 .project-image {
     width: 600px;
-    cursor: pointer;
     transition: 0.6s;
     box-shadow: -25px -25px 0px rgb(198, 198, 198);
 }
@@ -99,6 +98,11 @@
 .github-project-button {
     width: 35px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.github-project-button:hover {
+    width: 40px;
 }
 
 .news-container {
@@ -121,7 +125,7 @@
     font-size: 20px;
     cursor: pointer;
     transition: 0.4s;
-    text-decoration: none;
+    color: rgb(74, 74, 74);
 }
 
 .projects-box h4:hover {

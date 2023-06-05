@@ -1,6 +1,5 @@
 #about {
-    background-color: var(--main-black);
-    height: 60vh;
+    background-color: rgb(38, 38, 38);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,6 +9,7 @@
     color: var(--main-white);
     width: 1200px;
     height: 450px;
+    margin: 100px;
     display: flex;
     align-items: center;
     padding: 70px;
