@@ -1,0 +1,16 @@
+#footer {
+    height: 70px;
+    background-color: rgb(18, 18, 18);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer p {
+    font-size: 20px;
+    color: var(--main-white);
+}
+
+#footer span {
+    font-style: italic;
+}

@@ -2,15 +2,15 @@ const projectsData = [
     {
         image: 'assets/images/todo.PNG',
         title: 'Todo List',
-        text: 'Projeto básico desenvolvido com HTML, CSS e JavaScript, com o objetivo de ' +
-        'praticar, principalmente, a manipulação de formulários, uso do LocalStorage, filtragem e ' +
+        text: 'Projeto desenvolvido com HTML, CSS e JavaScript, com o objetivo de ' +
+        'praticar, principalmente, a manipulação de formulários, armazenamento de dados no LocalStorage, filtragem e ' +
         'pesquisa de itens.',
         buttonId: 'todoBtn'
     }, {
         image: 'assets/images/my store.PNG',
         title: 'My Store',
         text: 'Projeto básico desenvolvido com HTML, CSS e JavaScript, com o objetivo de ' +
-        'praticar, principalmente, a manipulação de array e objetos, além da geração de elementos HTML através do JavaScript.',
+        'praticar a manipulação de array e objetos, além da geração de elementos HTML com JavaScript.',
         formato: 'inverso',
         buttonId: 'myStoreBtn'
     }

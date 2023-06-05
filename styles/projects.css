@@ -1,6 +1,5 @@
 #projects {
-    height: 140vh;
-    color: var(--main-black);
+    height: 150vh;
 }
 
 .projects-title {
@@ -14,12 +13,6 @@
     display: flex;
     flex-direction: column;
     gap: 120px;
-}
-
-.projects-box h3 {
-    font-size: 30px;
-    text-align: center;
-    font-style: italic;
 }
 
 .projects-container {
@@ -96,14 +89,41 @@
 }
 
 #myStoreBtn {
-    background-color: rgb(255, 63, 63);
+    background-color: var(--main-red);
 }
 
 .view-project-button:hover {
-    box-shadow: 5px 5px 5px rgb(162, 162, 162);
+    box-shadow: 5px 5px 5px rgba(73, 73, 73, 0.587);
 }
 
 .github-project-button {
     width: 35px;
     cursor: pointer;
+}
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.news-container a {
+    text-decoration: none;
+}
+
+.projects-box h3 {
+    font-size: 30px;
+    font-style: italic;
+}
+
+.projects-box h4 {
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+    text-decoration: none;
+}
+
+.projects-box h4:hover {
+    color: var(--main-red);
 }

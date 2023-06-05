@@ -44,14 +44,20 @@
 }
 
 .about-buttons button {
-    padding: 15px 50px;
-    font-size: 25px;
+    height: 60px;
+    width: 200px;
+    font-size: 23px;
     background: none;
     border: 1px solid var(--main-white);
     color: var(--main-white);
     cursor: pointer;
     transition: 0.6s;
-    border-radius: 50px;
+    border-radius: 80px;
+    background-color: rgba(100, 100, 100, 0.261);
+}
+
+.about-buttons button:hover {
+    letter-spacing: 3px;
 }
 
 .about-linkedin:hover {
