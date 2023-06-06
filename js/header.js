@@ -24,3 +24,17 @@ themesBtn.addEventListener('click', () => {
         themesBall.style.marginRight = '';
     }
 });
+
+const mobileMenu = document.querySelector('.mobile-menu');
+const headerInfos = document.querySelector('.header-infos');
+const headerLinks = document.querySelectorAll('.header-infos li');
+
+mobileMenu.addEventListener('click', () => {
+    headerInfos.classList.toggle('show');
+});
+
+headerLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        headerInfos.classList.toggle('show');
+    });
+});

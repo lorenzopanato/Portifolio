@@ -46,7 +46,7 @@
 .about-buttons button {
     height: 60px;
     width: 200px;
-    font-size: 23px;
+    font-size: 22px;
     background: none;
     border: 1px solid var(--main-white);
     color: var(--main-white);
@@ -66,4 +66,41 @@
 
 .about-github:hover {
     background-color: rgba(0, 0, 0, 0.579);
+}
+
+@media (max-width: 1650px) {
+    .about-container {
+        width: 1050px;
+        height: 430px;
+    }
+
+    .about-box {
+        font-size: 22px;
+    }
+
+    .about-title {
+        font-size: 60px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .about-container {
+        flex-direction: column;
+        gap: 40px;
+        height: 80%;
+    }
+
+    .about-box {
+        font-size: 22px;
+        width: 90%;
+    }
+
+    .about-title {
+        font-size: 60px;
+        text-align: center;
+    }
+
+    .about-buttons {
+        justify-content: center;
+    }
 }

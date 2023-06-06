@@ -1,5 +1,9 @@
 #home {
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
 }
 
 .themes-button {
@@ -11,7 +15,6 @@
     flex-direction: column;
     gap: 20px;
     align-items: center;
-    padding-top: 300px;
 }
 
 .presentation-name {
@@ -31,7 +34,6 @@
     margin-top: 20px;
     display: flex;
     gap: 70px;
-    background-color: blue;
 }
 
 .skills div {
@@ -66,5 +68,20 @@
     width: 50px;
 }
 
+@media (max-width: 1650px) {
+    .presentation-name {
+        font-size: 83px
+    }
 
+    .presentation-info {
+        font-size: 37px;
+    }
 
+    .skills {
+        gap: 65px;
+    }
+
+    .skills img {
+        width: 32px;
+    }
+}

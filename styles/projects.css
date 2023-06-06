@@ -131,3 +131,53 @@
 .projects-box h4:hover {
     color: var(--main-red);
 }
+
+@media (max-width: 1650px) {
+    .projects-title {
+        font-size: 50px;
+    }
+
+    .project-container {
+        width: 1300px;
+        display: flex;
+        gap: 70px;
+        padding: 20px;
+    }
+
+    .project-image {
+        width: 600px;
+    }
+
+    .project-text h2 {
+        font-size: 45px;
+    }
+    
+    .project-text p {
+        text-align: justify;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .project-container {
+        width: 800px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-text {
+        align-items: center;
+    }
+
+    #inverso {
+        flex-direction: column;
+    }
+
+    #inverso .project-image{
+        box-shadow: -25px -25px 0px rgb(198, 198, 198);
+    }
+    
+    #inverso .project-buttons {
+        flex-direction: row;
+    }
+}

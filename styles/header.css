@@ -75,3 +75,39 @@
     color: inherit;
 }
 
+.mobile-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    display: none;
+    cursor: pointer;
+}
+
+.mobile-menu div {
+    background-color: rgb(38, 38, 38);
+    width: 35px;
+    height: 2px;
+}
+
+@media(max-width: 1400px) {
+    .header-infos {
+        position: absolute;
+        top: 10vh;
+        background-color: var(--main-white);
+        height: 90vh;
+        width: 100vw;
+        flex-direction: column;
+        justify-content: center;
+        display: none;
+    }
+
+    .show {
+        display: flex;
+    }
+
+    .mobile-menu {
+        display: flex;
+        margin-right: 60px;
+    }
+}
