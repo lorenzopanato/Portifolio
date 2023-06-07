@@ -85,3 +85,39 @@
         width: 32px;
     }
 }
+
+@media (max-width: 750px) {
+    .presentation-name {
+        font-size: 60px;
+    }
+
+    .presentation-info {
+        font-size: 30px;
+    }
+
+    .skills {
+        gap: 55px;
+    }
+
+    .skills img {
+        width: 28px;
+    }
+}
+
+@media (max-width: 530px) {
+    .presentation-name {
+        font-size: 40px;
+    }
+
+    .presentation-info {
+        font-size: 20px;
+    }
+
+    .skills {
+        gap: 50px;
+    }
+
+    .skills img {
+        width: 23px;
+    }
+}

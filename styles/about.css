@@ -104,3 +104,22 @@
         justify-content: center;
     }
 }
+
+@media (max-width: 900px) {
+    .about-container {
+        gap: 30px;
+    }
+
+    .about-box {
+        font-size: 18px;
+    }
+
+    .about-title {
+        font-size: 50px;
+    }
+
+    .about-buttons {
+        justify-content: center;
+        width: 70%;
+    }
+}
